@@ -11,6 +11,5 @@ public abstract class Animal {
         return nome;
     }
 
-    // Método abstrato para emitir som do animal
-    abstract void emitirSom();
+    public abstract void emitirSom();
 }

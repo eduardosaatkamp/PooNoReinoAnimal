@@ -1,12 +1,12 @@
 package Animals;
 
-class Cachorro extends Animal implements AcaoAnimal {
+public class Cachorro extends Animal implements AcaoAnimal {
     public Cachorro(String nome) {
         super(nome);
     }
 
     @Override
-    void emitirSom() {
+    public void emitirSom() {
         System.out.println(getNome() + " está latindo!");
     }
 
