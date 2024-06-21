@@ -1,4 +1,4 @@
-package Animals;
+package com.exemplo.animais;
 
 public abstract class Animal {
     private String nome;

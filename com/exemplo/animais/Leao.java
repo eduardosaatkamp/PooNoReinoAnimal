@@ -1,4 +1,4 @@
-package Animals;
+package com.exemplo.animais;
 
 public class Leao extends Animal implements AcaoAnimal {
     public Leao(String nome) {

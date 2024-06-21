@@ -1,7 +1,7 @@
-package test.Animals;
+package test.com.exemplo.animais;
 
-import Animals.Animal;
-import Animals.Gato;
+import com.exemplo.animais.Animal;
+import com.exemplo.animais.Gato;
 import org.junit.Assert;
 import org.junit.Test;
 
