@@ -1,6 +1,6 @@
 package com.exemplo.animais;
 
-public class Gato extends Animal implements AcaoAnimal {
+public class Gato extends Felino {
     public Gato(String nome) {
         super(nome);
     }

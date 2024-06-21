@@ -1,6 +1,7 @@
 package com.exemplo.animais;
 
-public class Cachorro extends Animal implements AcaoAnimal {
+public class Cachorro extends Canino {
+
     public Cachorro(String nome) {
         super(nome);
     }
@@ -15,4 +16,3 @@ public class Cachorro extends Animal implements AcaoAnimal {
         System.out.println(getNome() + " está abanando o rabo!");
     }
 }
-

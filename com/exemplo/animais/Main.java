@@ -3,16 +3,25 @@ package com.exemplo.animais;
 public class Main {
     public static void main(String[] args) {
 
-        Animal cachorro = new Cachorro("Kripto");
-        Animal gato = new Gato("Garfield");
-        Animal leao = new Leao("Simba");
+        Canino cachorro = new Cachorro("Kripto");
+        Canino fantasma = new Lobo("Fantasma");
+        Canino ventoCinzento = new Lobo("Vento Cinzento");
+        Canino nymeria = new Lobo("Nymeria");
+        Felino gato = new Gato("Garfield");
+        Felino leao = new Leao("Simba");
 
         cachorro.emitirSom();
         gato.emitirSom();
         leao.emitirSom();
+        fantasma.emitirSom();
+        ventoCinzento.emitirSom();
+        nymeria.emitirSom();
 
-        ((AcaoAnimal) cachorro).executarAcao();
-        ((AcaoAnimal) gato).executarAcao();
-        ((AcaoAnimal) leao).executarAcao();
+        cachorro.executarAcao();
+        gato.executarAcao();
+        leao.executarAcao();
+        fantasma.executarAcao();
+        ventoCinzento.executarAcao();
+        nymeria.executarAcao();
     }
 }
